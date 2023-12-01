@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://bb-frontend.onrender.com/', // our API base URL
+  baseURL: 'https://bb-backend-py4z.onrender.com/', // our API base URL
 });
 
 // Request interceptor for adding the bearer token

@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://still-refuge-14618-26151148c321.herokuapp.com/', // our API base URL
+  baseURL: 'https://bb-backend-py4z.onrender.com/', // our API base URL
 });
 
 // Request interceptor for adding the bearer token
